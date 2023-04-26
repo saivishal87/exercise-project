@@ -30,7 +30,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
   const indexOfFirstExercise = indexOfLastExercise - exercisesPerPage;
   var currentExercises=[]
   if(exercises){
- currentExercises = exercises.slice(indexOfFirstExercise, indexOfLastExercise);
+ currentExercises = exercises.slice(indexOfFirstExercise,indexOfLastExercise);
   }
   else{
     currentExercises="";
